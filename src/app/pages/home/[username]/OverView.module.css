@@ -1,0 +1,55 @@
+.readmeWrapper h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: black;
+  text-align: left;
+  /* gray-900 */
+}
+
+.readmeWrapper p {
+  font-size: 1rem;
+  color: #374151;
+  /* gray-700 */
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.readmeWrapper ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.readmeWrapper li {
+  margin-bottom: 0.5rem;
+}
+
+.readmeWrapper a {
+  color: #2563eb;
+  /* blue-600 */
+  text-decoration: underline;
+}
+
+.readmeWrapper code {
+  background: #f3f4f6;
+  /* gray-100 */
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.readmeWrapper pre {
+  background: #111827;
+  /* gray-900 */
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
