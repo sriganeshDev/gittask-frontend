@@ -20,7 +20,12 @@ const Headers = () => {
   const router = useRouter();
   const params = useParams();
   const pathname = usePathname();
-  const token = localStorage.getItem("token");
+  const [token, setToken] = useState(null);
+
+  useEffect(() => {
+    const storedToken = localStorage.getItem("token");
+    setToken(storedToken);
+  }, []);
 
   const { isLoggedIn, setIsLoggedIn, userData } = useCommonContext();
 
